@@ -1,3 +1,4 @@
-# DesignPatterns được viết riêng cho ngông c# và chạy được
+# DesignPatterns được viết riêng cho ngôn ngữ c# 
 
-[a link](https://github.com/hungud/repo/blob/master/DesignPatternsCSharpTest/AdapterPattern/README.md)
+# [Mẫu Adapter](DesignPatternsCSharpTest/AdapterPattern/README.md)
+
