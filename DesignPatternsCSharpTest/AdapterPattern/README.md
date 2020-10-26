@@ -10,5 +10,5 @@ Giải thích rõ hơn: Về cơ bản tên phương thức để lấy dữ li�
 Chúng ta xem mô hình UML sau:
 
 
-![UML Adapter](images/umlAdapter.jpg?raw=true "UML Adapter")
+![UML Adapter](images/umlAdapter.gif?raw=true "UML Adapter")
 
