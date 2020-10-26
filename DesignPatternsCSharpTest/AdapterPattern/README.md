@@ -5,4 +5,10 @@ Những thẻ này về gốc sẽ có thẻ cơ bản thường là mẫu nhỏ
 
 ![Memory Adapter](images/memoryAdapter.jpg?raw=true "Memory Adapter")
 
+Giải thích rõ hơn: Về cơ bản tên phương thức để lấy dữ liệu vẫn thế, hệ thống vẫn phải qua tên phương thức cũ, nhưng trong nội dung phương cũ đã bị ghi đè bởi phương thức mới 
+
+Chúng ta xem mô hình UML sau:
+
+
+![UML Adapter](images/memoryAdapter.jpg?raw=true "Memory Adapter")
 
