@@ -60,3 +60,9 @@ public class Adapter : ITarget
     }
 }
 ```
+
+Tham khảo các nguồn:
+- http://www.blackwasp.co.uk/Adapter.aspx
+- https://www.dotnettricks.com/learn/designpatterns/adapter-design-pattern-dotnet
+- https://www.dofactory.com/net/adapter-design-pattern
+
