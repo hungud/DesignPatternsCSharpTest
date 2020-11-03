@@ -6,7 +6,7 @@ Một lớp Factory chứa một phương thức sẽ cho phép xác định ki�
 - Factory là một mẫu thiết kế (pattern) mà nó xác nhận một giao diện để tạo một đối tượng, nhưng để các lớp con quyết định lớp nào được khởi tạo. 
 Như vậy nó cho phép trì hoãn việc khởi tạo cho các lớp con
 
-- Factory là mẫu thiết kế thường xuyên dùng, đánh giá 5/5
+- Factory là mẫu thiết kế thường xuyên dùng, đánh giá mức độ 5/5
 
 ![UML Factory Pattern](images/FactoryMethod.png?raw=true "UML Factory Pattern")
 
