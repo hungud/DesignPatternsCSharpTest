@@ -1,9 +1,9 @@
 ﻿## Mẫu Factory
 
-Factory là một mẫu thiết kế (pattern) mà nó cho phép tạo các đối tượng mà không cần chỉ định loại đối tượng sẽ được tạo trong mã. 
+- Factory là một mẫu thiết kế (pattern) mà nó cho phép tạo các đối tượng mà không cần chỉ định loại đối tượng sẽ được tạo trong mã. 
 Một lớp Factory chứa một phương thức sẽ cho phép xác định kiểu được tạo tại thời điểm chạy
 
-Nó xác nhận một giao diện để tạo một đối tượng, nhưng để các lớp con quyết định lớp nào được khởi tạo. 
+- Factory là một mẫu thiết kế (pattern) mà nó xác nhận một giao diện để tạo một đối tượng, nhưng để các lớp con quyết định lớp nào được khởi tạo. 
 Như vậy nó cho phép trì hoãn việc khởi tạo cho các lớp con
 
 ![UML Factory Pattern](images/FactoryMethod.png?raw=true "UML Factory Pattern")
