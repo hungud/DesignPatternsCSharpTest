@@ -10,6 +10,13 @@ Như vậy nó cho phép trì hoãn việc khởi tạo cho các lớp con
 
 ![UML Factory Pattern](images/FactoryMethod.png?raw=true "UML Factory Pattern")
 
+# Trong sơ đồ này có 4 lớp:
+
+- FactoryBase: 
+- ConcreteFactory: 
+- ProductBase: 
+- ConcreteProduct: 
+ 
 
 ```
 public abstract class FactoryBase
@@ -43,4 +50,6 @@ public class ConcreteProduct2 : ProductBase { }
 Tham khảo các nguồn:
 - http://www.blackwasp.co.uk/FactoryMethod.aspx
 - https://www.dofactory.com/net/factory-method-design-pattern
+- https://refactoring.guru/design-patterns/factory-method
+- https://dotnettutorials.net/lesson/factory-method-design-pattern-csharp/
 
