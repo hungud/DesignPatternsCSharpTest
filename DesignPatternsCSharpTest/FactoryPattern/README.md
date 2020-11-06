@@ -12,14 +12,14 @@ Như vậy nó cho phép trì hoãn việc khởi tạo cho các lớp con
 
 # Trong sơ đồ này có 4 lớp:
 
-- FactoryBase: Đây là lớp cơ sở trừu tượng (abstract) cho các lớp nhà máy con, các lớp nhà máy con chịu tránh nhiệm sản xuất ra đối tượng cụ thể, và các đối tượng này có các phương thức, thuộc tính kế thừa. 
+- FactoryBase: Đây là lớp cơ sở trừu tượng (abstract) cho các lớp nhà máy con, các lớp nhà máy con chịu tránh nhiệm sản xuất ra đối tượng cụ thể, và các đối tượng này có các phương thức, thuộc tính kế thừa từ lớp cha 
 Lớp cơ sở này có thể là một interface đơn giản chứa đặc tả các phương thức, thuộc tính cho các lớp con. 
 
 - ConcreteFactory: Đây là lớp nhà máy cụ thể, lớp này là lớp con kế thừa lớp FactoryBase, có các phương thức, thuộc tính kế thừa, và nó sẽ chịu tránh nhiệm sản xuất ra các đối tượng cụ thể
 
-- ProductBase: Đây là lớp sản phẩm cơ sở
+- ProductBase: Đây là lớp sản phẩm cơ sở cho các lớp sản phẩm con cụ thể. Các sản phẩm con cụ thể có các phương thức, thuộc tính kế thừa từ lớp cha
 
-- ConcreteProduct: Đây là lớp sản phẩm cụ thể
+- ConcreteProduct: Đây là lớp sản phẩm cụ thể, có đầy đủ phương thức, thuộc tính kế thừa từ lớp cha ProductBase
  
 
 ```
