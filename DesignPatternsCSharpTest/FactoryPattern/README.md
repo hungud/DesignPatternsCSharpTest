@@ -50,6 +50,17 @@ public class ConcreteProduct1 : ProductBase { }
 public class ConcreteProduct2 : ProductBase { }
 ```
 
+Và khi chạy
+
+```
+FactoryBase fac = new ConcreteFactory();
+ProductBase prod = fac.FactoryMethod(type: 1);
+Console.WriteLine(prod.GetType());
+
+OUTPUT:
+ConcreteProduct1
+```
+
 
 Tham khảo các nguồn:
 - http://www.blackwasp.co.uk/FactoryMethod.aspx
