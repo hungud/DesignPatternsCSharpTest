@@ -12,7 +12,7 @@ Như vậy nó cho phép trì hoãn việc khởi tạo cho các lớp con
 
 # Trong sơ đồ này có 4 lớp:
 
-- FactoryBase: 
+- FactoryBase: Đây là lớp cơ sở trừu tượng (abstract) cho các lớp khác, các lớp mà sẽ sinh ra đối tượng mới. Lớp này có thể là một interface đơn giản chứa đặc tả cho lớp. Tuy vậy, một lớp trừu tượng sẽ được sử dụng để các chức năng tiêu chuẩn khác có thể được các lớp con bao gồm và kế thừa.
 - ConcreteFactory: 
 - ProductBase: 
 - ConcreteProduct: 
